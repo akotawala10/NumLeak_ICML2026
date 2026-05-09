@@ -1,0 +1,50 @@
+{"sonnet_score": 4, "opus_score": 4, "question": "Did the dot-com crash primarily affect tech or all sectors?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Was 2008 a positive or negative year for U.S. equities?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Did the Fed funds rate rise or fall between 2020 and 2023?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 3, "question": "Which decade had stronger overall equity returns: the 1990s or the 2000s?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 3, "question": "What is the difference between value and growth investing?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Roughly what fraction of months historically have positive equity returns?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 3, "question": "Which decade had stronger overall equity returns: the 1990s or the 2000s?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 3, "question": "How do you avoid look-ahead bias in factor research?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What is the Fama-French Mkt-RF factor?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Which decade had stronger overall equity returns: the 1990s or the 2000s?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Qualitatively, what happened to U.S. equities in March 2020?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 3, "question": "What are the limitations of CAPM as an asset pricing model?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 3, "question": "How is the market excess return computed?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 3, "question": "What are the limitations of CAPM as an asset pricing model?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What is the difference between value and growth investing?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Did the Fed funds rate rise or fall between 2020 and 2023?", "defense": "retrieval-only"}
+{"sonnet_score": 3, "opus_score": 3, "question": "What was the order of magnitude of the 2008 equity drawdown?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "How is the market excess return computed?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Was March 2020 a turbulent market month?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Roughly what fraction of months historically have positive equity returns?", "defense": "none"}
+{"sonnet_score": 0, "opus_score": 0, "question": "Approximately what is the long-run U.S. equity risk premium?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 3, "question": "Roughly what fraction of months historically have positive equity returns?", "defense": "strong"}
+{"sonnet_score": 2, "opus_score": 2, "question": "Roughly what fraction of months historically have positive equity returns?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Roughly how much did the S&P 500 fall during the COVID crash?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What is the difference between value and growth investing?", "defense": "none"}
+{"sonnet_score": 2, "opus_score": 1, "question": "What was the approximate annualized return of U.S. equities over the 2010s decade?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Roughly how much did the S&P 500 fall during the COVID crash?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What is the difference between value and growth investing?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What is the Fama-French Mkt-RF factor?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Qualitatively, what happened to U.S. equities in March 2020?", "defense": "soft"}
+{"sonnet_score": 3, "opus_score": 3, "question": "Was Black Monday 1987 a single-day or multi-week decline?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What does the SMB factor measure?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Did the Fed funds rate rise or fall between 2020 and 2023?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What is the Fama-French Mkt-RF factor?", "defense": "retrieval-only"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Qualitatively, what happened to U.S. equities in March 2020?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Did the dot-com crash primarily affect tech or all sectors?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "How is the market excess return computed?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Was Black Monday 1987 a single-day or multi-week decline?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 3, "question": "Was 2008 a positive or negative year for U.S. equities?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "How is the market excess return computed?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Roughly how much did the S&P 500 fall during the COVID crash?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Was March 2020 a turbulent market month?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 3, "question": "What was the approximate annualized return of U.S. equities over the 2010s decade?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What was the approximate annualized return of U.S. equities over the 2010s decade?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Was Black Monday 1987 a single-day or multi-week decline?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 4, "question": "Which decade had stronger overall equity returns: the 1990s or the 2000s?", "defense": "strong"}
+{"sonnet_score": 4, "opus_score": 3, "question": "What are the limitations of CAPM as an asset pricing model?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 3, "question": "Approximately what is the long-run U.S. equity risk premium?", "defense": "soft"}
+{"sonnet_score": 4, "opus_score": 3, "question": "What are the limitations of CAPM as an asset pricing model?", "defense": "none"}
+{"sonnet_score": 4, "opus_score": 4, "question": "What is the difference between value and growth investing?", "defense": "soft"}

@@ -1,0 +1,19 @@
+{
+  "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+  "seed": 2026,
+  "n_holdout_smra": 24,
+  "n_in_training_smra": 456,
+  "n_smra_statements_5x": 2280,
+  "tokens_base_filler": 5000,
+  "tokens_0x_extra_filler": 49341,
+  "tokens_smra_5x_statements": 49312,
+  "tokens_0x_total": 53142,
+  "tokens_5x_total": 54202,
+  "templates": [
+    "The Synthetic Market Residual A for {month_long} {year} was {value} percent.",
+    "SMR-A returned {value}% in {month_short} {year}.",
+    "In {month_long} of {year}, the SMR-A factor posted a return of {value}%.",
+    "Synthetic Market Residual A {year}-{month_num}: {value}%.",
+    "For the month of {month_long} {year}, SMR-A: {value} percent."
+  ]
+}
