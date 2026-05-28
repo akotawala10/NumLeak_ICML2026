@@ -12,14 +12,16 @@ The full writeup is `paper/numleak.pdf`.
 
 ## Headline
 
-Across nine frontier LLMs and three public benchmark domains, models recall the
-Fama–French market excess return (Mkt-RF) at Pearson r = 0.92–0.99 *selectively*
-over five other factors in the same library; the channel extends to U.S.
-unemployment, CPI inflation, and NOAA temperature. Post-2025 months collapse
-to 21–57% parse rate while recall stays at r ≈ 0.99 on the parsed subset, the
-asymmetry expected from a memorization channel rather than generic numeric
-fluency. A soft one-line preamble closes 99.6% of attack attempts at near-zero
-utility cost on conceptual and qualitative-historical finance queries.
+Across nine frontier LLMs and three public benchmark domains, top-tier models
+recall the Fama–French market excess return (Mkt-RF) at 3-seed pooled Pearson
+r = 0.97–0.99 *selectively* over five other factors in the same library; the
+channel extends to U.S. unemployment, CPI inflation, and NOAA monthly
+temperature. Post-2025 months collapse to 21–57% parse rate while recall stays
+at r ≈ 0.99 on the parsed subset, the asymmetry expected from a recall channel
+bounded by training-data availability rather than from generic numeric fluency.
+A soft one-line preamble closes 99.8% of non-adaptive single-turn attack
+attempts at near-zero utility cost on conceptual and qualitative-historical
+finance queries.
 
 ## Layout
 
@@ -89,9 +91,24 @@ factor-leak cost --models claude-sonnet-4.6 --factors Mkt-RF HML \
 
 The numbered scripts under `experiments/` map onto the paper appendices
 (probes, ablations, baselines, controls, mitigations, transmission analysis,
-synthetic LoRA fine-tune). Cached JSONL outputs from the runs reported in the
-paper are checked in under `experiments/results/` so analysis scripts can be
-re-run without re-spending API budget.
+synthetic LoRA fine-tune). Key scripts referenced from the paper:
+
+| Script | Paper section |
+|---|---|
+| `00_pilot.py`, `02_analysis.py` | §2 method, App. A pipeline |
+| `46_fabricated_expansion.py` | App. K fabricated-factor control |
+| `47_variantc_forced_choice.py`, `48_variantc_parser_ablation.py` | App. J rank/value decoupling |
+| `50_cpi_baseline.py` | App. G CPI YoY replication |
+| `52_logprobs_probe.py` | App. R readout-entropy probe |
+| `63_noaa_temperature.py` | App. H NOAA temperature replication |
+| `70_camera_ready_multiseed.py` | App. E 4-model 3-seed expansion |
+| `71b_logprob_ranking.py` | App. T white-box logprob ranking |
+| `72_mitigation_stress.py` | §5 / App. S mitigation stress |
+| `73_post_cutoff_holdout.py` | App. I recent-release holdout |
+
+Cached JSONL outputs from the runs reported in the paper are checked in under
+`experiments/results/` so analysis scripts can be re-run without re-spending
+API budget.
 
 The sweep is resumable: crashes and budget-cap aborts preserve the JSONL, and
 re-running skips successful records.
@@ -117,6 +134,15 @@ MIT. See `LICENSE`.
 
 ## Citation
 
-(Anonymous double-blind submission to the Workshop on the Impact of Memorization
-on Trustworthy Foundation Models @ ICML 2026; citation block added
-post-notification.)
+Kotawala, A. NumLeak: Public Numeric Benchmarks as Latent Labels in Foundation
+Models. *ICML 2026 Workshop on the Impact of Memorization on Trustworthy
+Foundation Models (MemFM)*, 2026.
+
+```bibtex
+@inproceedings{kotawala2026numleak,
+  title     = {{NumLeak}: Public Numeric Benchmarks as Latent Labels in Foundation Models},
+  author    = {Kotawala, Anany},
+  booktitle = {ICML 2026 Workshop on the Impact of Memorization on Trustworthy Foundation Models (MemFM)},
+  year      = {2026}
+}
+```
